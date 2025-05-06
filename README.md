@@ -26,46 +26,7 @@ git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
 # push changes to github
 git push --set-upstream origin main
 
-///
-
-Example: Start a new repository and publish it to GitHub
-First, you will need to create a new repository on GitHub. For more information, see Hello World. Do not initialize the repository with a README, .gitignore or License file. This empty repository will await your code.
-
-# create a new directory, and initialize it with git-specific functions
-git init my-repo
-
-# change into the `my-repo` directory
-cd my-repo
-
-# create the first file in the project
-touch README.md
-
-# git isn't aware of the file, stage it
-git add README.md
-
-# take a snapshot of the staging area
-git commit -m "add README to initial commit"
-
-# provide the path for the repository you created on github
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
-
-///// error on next line
-
-# push changes to github
-git push --set-upstream origin main
-
-/////
-bjanu@MSI MINGW64 ~/desktop/gitgoing (master)
-$ git push --set-upstream origin main
-error: src refspec main does not match any
-error: failed to push some refs to 'https://github.com/bjanusek00/gitgoing.git'
-/////
-
-what worked instead was the boilerplate instructions that came along w the GitHub "new repository w/o a README, .gitignore or License file." aka this empty repository will await your code. etc
-
-so check it all out
-
-/////
+check this out:
 
 bjanu@MSI MINGW64 ~/desktop/gitgoing
 $ git init
@@ -125,6 +86,3 @@ branch 'main' set up to track 'origin/main'.
 
 bjanu@MSI MINGW64 ~/desktop/gitgoing (main)
 $
-
-
-

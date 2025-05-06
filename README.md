@@ -25,7 +25,9 @@ git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
 # push changes to github
 ~~git push --set-upstream origin main~~
 $ git branch -M main
+
 $ git push -u origin main
+
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 238 bytes | 238.00 KiB/s, done.
